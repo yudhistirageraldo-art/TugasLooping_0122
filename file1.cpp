@@ -67,3 +67,14 @@ void tampilMenu() {
     cout << "Pilih menu: ";
     cin >> pilihan;
 }
+
+// Main program
+int main() {
+
+    while (true) {
+        tampilMenu();
+
+        switch (pilihan) {
+        }
+    }
+}
