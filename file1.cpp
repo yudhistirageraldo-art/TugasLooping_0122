@@ -83,6 +83,9 @@ int main() {
                 inputAngka();
                 tampilHasilFibonacci();
                 break;
+         case 0:
+                cout << "Program selesai." << endl;
+                return 0;
         }
     }
 }
