@@ -21,6 +21,7 @@ bool isPrima(int x){
         if ( % i == 0){
             return false;
         }
-        
+        i++;
     }
+    return true;
 }
