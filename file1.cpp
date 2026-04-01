@@ -18,7 +18,7 @@ bool isPrima(int x){
 
     int i = 2;
     while (i < x) {
-        if ( % i == 0){
+        if (x % i == 0){
             return false;
         }
         i++;
@@ -27,7 +27,7 @@ bool isPrima(int x){
 }
 
 // Function cek bilangan fibonacci
-bool isFIBONACCI(int x) {
+bool isFibonacci(int x) {
     int a = 0, b = 1, c;
 
      while (a <= x) {
