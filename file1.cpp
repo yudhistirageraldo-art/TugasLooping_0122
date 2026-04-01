@@ -9,3 +9,6 @@ void inputAngka() {
     cout << "masukkan bilangan: ";
     cin >> n;
 }
+
+// function cek bilangan prima
+bool isPrima(int x){}
