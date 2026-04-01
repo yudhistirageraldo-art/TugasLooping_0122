@@ -27,4 +27,4 @@ bool isPrima(int x){
 }
 
 // Function cek bilangan fibonacci
-bool isFIBONACCI(int x) 
+bool isFIBONACCI(int x) {}
