@@ -52,5 +52,18 @@ void tampilHasilPrima() {
 
 void tampilHasilFibonacci() {
     if (isFibonacci(n)) {
+         cout << n << " termasuk bilangan Fibonacci." << endl;
+    } else {
+          cout << n << " bukan bilangan Fibonacci." << endl;
     }
+}
+
+// function menu
+void tampilMenu() {
+    cout << "\n=== MENU ===" << endl;
+    cout << "1. Cek Bilangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar" << endl;
+    cout << "Pilih menu: ";
+    cin >> pilihan;
 }
