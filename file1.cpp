@@ -49,3 +49,8 @@ void tampilHasilPrima() {
  cout << n << " bukan bilangan prima." << endl;
     }
 }
+
+void tampilHasilFibonacci() {
+    if (isFibonacci(n)) {
+    }
+}
