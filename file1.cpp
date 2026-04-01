@@ -11,4 +11,8 @@ void inputAngka() {
 }
 
 // function cek bilangan prima
-bool isPrima(int x){}
+bool isPrima(int x){
+    if (x <= 1){
+        
+    }
+}
