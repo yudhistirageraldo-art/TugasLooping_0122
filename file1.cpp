@@ -17,5 +17,10 @@ bool isPrima(int x){
     }
 
     int i = 2;
-    while (i < x) {}
+    while (i < x) {
+        if ( % i == 0){
+            return false;
+        }
+        
+    }
 }
